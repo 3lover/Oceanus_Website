@@ -1,0 +1,92 @@
+:root {
+    --black: #000000;
+    --veryDarkGrey: #333333;
+    --darkGrey: #555555;
+    --grey: #888888;
+    --lightGrey: #aaaaaa;
+    --veryLightGrey: #dddddd;
+    --white: #ffffff;
+
+    --red: #ff0000;
+    --lightRed: #fa5f5f;
+    --veryLightRed: #ffb8b8;
+    --darkRed: #a80000;
+    --veryDarkRed: #690000;
+    --greyRed: #825b5b;
+
+    --orange: #ff8800;
+    --lightOrange: #ffb663;
+    --veryLightOrange: #ffdeb8;
+    --darkOrange: #c26700;
+    --veryDarkOrange: #7a4100;
+    --greyOrange: #755a3b;
+
+    --yellow: #ffff00;
+    --lightYellow: #ffff6e;
+    --veryLightYellow: #ffffc9;
+    --darkYellow: #a6a600;
+    --veryDarkYellow: #636300;
+    --greyYellow: #8c8c58;
+
+    --green: #00ff00;
+    --lightGreen: #59ff59;
+    --veryLightGreen: #b8ffb8;
+    --darkGreen: #00ab00;
+    --veryDarkGreen: #005200;
+    --greyGreen: #608f60;
+
+    --cyan: #00ffff;
+    --lightCyan: #6bffff;
+    --veryLightCyan: #baffff;
+    --darkCyan: #00b0b0;
+    --veryDarkCyan: #005c5c;
+    --greyCyan: #4f7878;
+
+    --blue: #0000ff;
+    --lightBlue: #5c5cff;
+    --veryLightBlue: #c2d9ff;
+    --darkBlue: #0047ba;
+    --veryDarkBlue: #002259;
+    --greyBlue: #4b5d7a;
+
+    --purple: #8800ff;
+    --lightPurple: #ad4fff;
+    --veryLightPurple: #deb8ff;
+    --darkPurple: #54009e;
+    --veryDarkPurple: #2e0057;
+    --greyPurple: #574369;
+
+    --pink: #ff00ff;
+    --lightPink: #ff6bff;
+    --veryLightPink: #ffb8ff;
+    --darkPink: #bd00bd;
+    --veryDarkPink: #630063;
+    --greyPink: #784a78;
+}
+
+@font-face {
+    font-family: 'Jetbrains Mono';
+    src: url('https://fonts.googleapis.com/css?family=JetBrains Mono');
+}
+
+* {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", sans-serif;
+    user-select: none;
+    box-shadow: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    position: static;
+}
+
+div {
+    background-color: var(--black);
+}
